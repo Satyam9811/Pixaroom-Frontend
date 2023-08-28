@@ -1,0 +1,27 @@
+.signup-page {
+  padding: 40px;
+  min-height: calc(100vh - 112px);
+
+  background: #dae2f8;
+  background: -webkit-linear-gradient(to left, #d6a4a4, #dae2f8);
+  background: linear-gradient(to left, #d6a4a4, #dae2f8);
+}
+
+.signup-text {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signup-form {
+  padding: 40px 70px 40px 70px;
+}
+
+@media screen and (max-width: 575px) {
+  .signup-page {
+    padding: 40px 20px 50px 20px;
+  }
+
+  .signup-form {
+    padding: 30px 20px 40px 20px;
+  }
+}

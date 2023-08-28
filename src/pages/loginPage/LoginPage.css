@@ -1,0 +1,27 @@
+.login-page {
+  padding: 40px;
+  min-height: calc(100vh - 112px);
+
+  background: #dae2f8;
+  background: -webkit-linear-gradient(to right, #d6a4a4, #dae2f8);
+  background: linear-gradient(to right, #d6a4a4, #dae2f8);
+}
+
+.login-text {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login-form {
+  padding: 40px 70px 40px 70px;
+}
+
+@media screen and (max-width: 575px) {
+  .login-page {
+    padding: 40px 20px 50px 20px;
+  }
+
+  .login-form {
+    padding: 30px 20px 40px 20px;
+  }
+}

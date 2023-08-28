@@ -1,0 +1,93 @@
+.view-gallery-container {
+  padding: 30px 30px 100px 30px;
+  min-height: calc(100vh - 112px);
+
+  background: #23074d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cc5333,
+    #23074d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cc5333,
+    #23074d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.view-gallery-name {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.no-images {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+  font-weight: 800;
+  font-size: larger;
+  color: rgb(255, 255, 255);
+}
+
+.view-images {
+  padding: 10px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.view-image {
+  margin: 15px 20px;
+}
+
+.view-image-image {
+  width: 350px;
+  height: auto;
+  border: solid 4px white;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1230px) {
+  .view-image-image {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .view-image-image {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 643px) {
+  .view-image-image {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .view-gallery-container {
+    padding: 20px 10px 70px 10px;
+  }
+
+  .view-image {
+    margin: 6px 4px;
+  }
+
+  .view-image-image {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .view-image-image {
+    width: 155px;
+  }
+}

@@ -1,0 +1,11 @@
+.error-page {
+  min-height: calc(100vh - 112px);
+  width: 100vw;
+}
+
+.error-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}

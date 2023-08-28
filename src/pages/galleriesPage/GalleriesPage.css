@@ -1,0 +1,43 @@
+.galleries-container {
+  padding: 30px 30px 70px 30px;
+  min-height: calc(100vh - 112px);
+
+  background: #c33764; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1d2671,
+    #c33764
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1d2671,
+    #c33764
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.create-gallery {
+  padding: 20px 20px;
+}
+
+.gallery-table {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 15px;
+  text-align: center;
+}
+
+.not-created-gallery {
+  text-align: center;
+  font-family: cursive;
+  color: white;
+}
+
+@media screen and (max-width: 575px) {
+  .galleries-container {
+    padding: 30px 10px 50px 10px;
+  }
+
+  .gallery-table {
+    padding: 10px;
+  }
+}

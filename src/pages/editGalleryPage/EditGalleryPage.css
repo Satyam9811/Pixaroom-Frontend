@@ -1,0 +1,68 @@
+.edit-gallery-container {
+  padding: 20px 30px 100px 30px;
+  min-height: calc(100vh - 112px);
+
+  background: #da4453; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #89216b,
+    #da4453
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gallery-name {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  /* padding-bottom: 20px; */
+  text-transform: capitalize;
+}
+
+.update-gallery {
+  padding: 20px 20px;
+  margin-bottom: 40px;
+}
+
+.edit-gallery-images {
+  padding: 20px 20px;
+}
+
+.all-images {
+  padding: 10px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+.one-image {
+  margin: 15px 10px;
+}
+
+.one-image-image {
+  width: 220px;
+  height: auto;
+  border: solid 4px white;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 575px) {
+  .edit-gallery-container {
+    padding: 20px 20px 80px 20px;
+  }
+
+  .one-image {
+    margin: 15px 4px;
+  }
+
+  .one-image-image {
+    width: 160px;
+  }
+}

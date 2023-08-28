@@ -1,0 +1,23 @@
+.other-user {
+  padding: 40px 100px 80px 100px;
+  min-height: calc(100vh - 112px);
+
+  background: #d53369;
+  background: -webkit-linear-gradient(to right, #cbad6d, #d53369);
+  background: linear-gradient(to right, #cbad6d, #d53369);
+}
+
+.other-user-galleries {
+  padding: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  .other-user {
+    padding: 30px 20px 50px 20px;
+  }
+
+  .other-user-galleries {
+    padding: 10px;
+  }
+}

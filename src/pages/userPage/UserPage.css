@@ -1,0 +1,42 @@
+.user-page {
+  padding: 50px 100px 50px 100px;
+  min-height: calc(100vh - 112px);
+
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #89253e,
+    #3a6186
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #89253e,
+    #3a6186
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.user-row {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 20px;
+}
+
+.user-page-heading {
+  font-size: 21px;
+  font-weight: 900;
+  font-family: monospace;
+}
+
+.user-page-value {
+  font-size: 19px;
+  word-break: break-all;
+}
+
+@media screen and (max-width: 575px) {
+  .user-page {
+    padding: 30px 20px 50px 20px;
+  }
+  .user-row {
+    padding: 15px 10px 15px 10px;
+  }
+}
