@@ -211,15 +211,16 @@ function OtherUserPage() {
             striped
             bordered
             hover
+            responsive
             data={galleryData}
-            entriesOptions={[25, 50, 100]}
-            entries={25}
-            pagingTop
+            entries={3}
+            entriesOptions={[3, 5, 10, 25, 50, 100]}
             searchTop
             searchBottom={false}
             fullPagination
             searchLabel='Search...'
             noBottomColumns={true}
+            // pagingTop
           />
 
           {/* <table
