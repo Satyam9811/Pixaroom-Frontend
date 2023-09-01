@@ -38,8 +38,6 @@ function App() {
 
           <Route path='/gallery/view/:id' element={<ViewGalleryPage />}></Route>
 
-          {/* <Route path='/image/:id' element={}></Route> */}
-
           <Route path='*' element={<ErrorPage></ErrorPage>}></Route>
         </Routes>
 
